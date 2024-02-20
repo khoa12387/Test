@@ -78,7 +78,7 @@ def display_specific_columns(csv_file, output_file, columns):
 
 if __name__ == "__main__":
     url = "https://drive.google.com/uc?id=1yyL20BNKv3PxJRJVjJ_2Q-HidvIUis45&export=download"
-    data_dir = os.path.join('D:\Customers')
+    data_dir = "Test"
     csv_file = os.path.join(data_dir, "customers-100.csv")  # Khi đã giải nén ra file "customer-100.csv"
     output_file = "result.csv"
     columns_to_display = ["Index", "Customer Id", "First Name", "Last Name", "Company","City","Country","Phone 1", "Phone 2" , "Email","Subscription Date","Website"]
